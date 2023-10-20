@@ -1,0 +1,24 @@
+Populate all componnets by typing rfce
+Import the Todo wrapper in App.js
+Copy CSS 
+Work on Todo Form
+Import the Todo Form in the Todo wrapper
+Think logically what the next step should be => todo form is used to add todos.
+At this step, The Todo wrapper will give you a subset component of the Todo form, which will have, a placeholder and a submit btn.
+"useState" -- this is to keep track of what user is typing
+"onChange" -- this is to get the value of the user input, what the user types in the placeholder
+"setValue" -- this is used to save it to the state
+"handleSubmit" -- this is a function that captures the value of the state when we submit the form, this function is created outside the return stmt
+"preventDefault"-- this is to prevent the auto reload of the page whenever submit is triggered
+The value entered is getting consoled at this point, now we need to send it to the main wrapper component and print it out
+So, make use of useState and props to send from Form to Wrapper
+Make use of a function addTodo 
+Add value in the Form, so that todo gets printed out
+Display the todos now - go to Todo.js now
+Use map to display all todos
+Mark complete when todo is done
+Use maps and logic to do this
+Set up the Delete Function
+Use filter and logic to do this
+
+
